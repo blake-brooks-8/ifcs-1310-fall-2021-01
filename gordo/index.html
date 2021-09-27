@@ -1,26 +1,168 @@
-
 <!doctype html>
+<html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>IFSC 1310 | Your name</title>
-  <meta name="description" content="Teaching Web Site for IFSC 1310" />
-  <meta name="author" content="Blake Brooks" />
-
+<head lang="en">
+  <title>Blake Brooks</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Keyword rich description of the sites purpose." />
+  <!--     You don't need keywords anymore -->
+  <meta name="keywords" content="UALR, UA Little Rock, Information Science" />
+  <meta name='author' content='Blake Brooks' />
 </head>
 
 <body>
-  <h1>Blake Brooks</h1>
-  
-  <ul>
-      Sports
-      <li>Football</li>
-      <li>Baseball</li>
-      <li>Soccer</li>
-      <li>Basketball</li>
-      <li>Hockey</li>
-  </ul>
+  <div class="container">
+    <header id='primary'>
+      <h1>Prototype HTML Document Example <sup>(Document Title)</sup></h1>
+    </header>
+
+    <section id='content'>
+      <h2>Properly Marking up an HTML Document (Primary Content Heading)</h2>
+
+      <form action="" method="">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="name">Name: </label>
+          <input type="text" id='name' name='name' />
+
+          <label for="address">Address: </label>
+          <textarea name="address" id="address"></textarea>
+
+          <label for="color">Favorite Color</label>
+          <select name="color" id="color">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+          </select>
+
+          <input type="submit" value="Submit">
+        </fieldset>
+        <fieldset>
+          <legend>Personal Information</legend>
+        </fieldset>
+        <fieldset>
+          <legend>Personal Information</legend>
+        </fieldset>
+      </form>
+
+      <table class='table' summary='grocery list'>
+        <caption>Grocery List</caption>
+        <tr>
+          <th scope='col'>Item</th>
+          <th scope='col'>Quantity</th>
+          <th scope='col'>Cost</th>
+        </tr>
+        <tr>
+          <td>Jolt</td>
+          <td>6</td>
+          <td>.50</td>
+        </tr>
+        <tr>
+          <td>Corky Cola</td>
+          <td>99</td>
+          <td>1.50</td>
+        </tr>
+        <tr>
+          <td>Dr. Perky</td>
+          <td>2</td>
+          <td>.75</td>
+        </tr>
+      </table>
+      <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor.
+      </p>
+
+      <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="UALR Logo" />
+
+      <p>Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+      <h3>This is a Subsection of the Primary Content (Subsection I)</h3>
+
+      <!--   This is a paragraph.  -->
+      <p>Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+      <ol>
+        <!--     This is a list of instructions. -->
+        <li>Instruction</li>
+        <li>Instruction</li>
+        <li>Instruction</li>
+      </ol>
+      <ul>
+        <!--     This is a list of items to purchase at the grocery store. -->
+        <li>Ramen</li>
+        <li>Cheetos</li>
+        <li>Jolt</li>
+        <li>Bread</li>
+      </ul>
+
+      <!--   This is an Example of how we should mark up a term and its description(s) -->
+
+      <dl>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dd>Description 3</dd>
+        <dd>Description 4</dd>
+      </dl>
+
+      <h4>This is a Subsection of Subsection I</h4>
+
+      <blockquote>This is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration.
+        <cite>From Designing with Web Standards by Jeffery Zeldman.</cite>
+      </blockquote>
+      <section id='blog'>
+        <article>
+          <header>Blog</header>
+          Content.....
+          <footer></footer>
+        </article>
+        <article>
+          <header>Blog</header>
+          Content.....
+          <footer></footer>
+        </article>
+        <article>
+          <header>Blog</header>
+          Content.....
+          <footer></footer>
+        </article>
+      </section>
+
+      <h3>This is a Subsection of the Primary Content (Subsection II)</h3>
+
+      <!--   This is a paragraph.  -->
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. <em>Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem.</em> Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. <del>Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</del> Proin adipiscing ultrices dui. Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</p>
+
+      <!--   This is the Navigation for the Page -->
+
+    </section>
+    <!--   primary nav -->
+    <nav class='primary'>
+
+      <ul>
+        <a href="https://google.com">
+          <li>Home</li>
+        </a>
+        <a href="https://google.com">
+          <li>About</li>
+        </a>
+        <a href="https://google.com">
+          <li>Services</li>
+        </a>
+        <a href="https://google.com">
+          <li>Contact</li>
+        </a>
+      </ul>
+
+      <footer>
+        <h6>&copy; 2021 Blake Brooks | <a href='#top'>Back to Top</a>
+      </footer>
+    </nav>
+  </div>
 </body>
+
 </html>
