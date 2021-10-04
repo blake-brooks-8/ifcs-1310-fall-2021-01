@@ -1,0 +1,39 @@
+/*CSS Demo Stylesheet*/
+
+/* ---------------Reset----------------- */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ---------------Global Styles----------------- */
+
+body {
+    background-color:#fff;
+    color: #425466;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: .5;
+    line-height: 1.4285714285714286em;
+}
+
+a {
+    color:#635bff;
+}
