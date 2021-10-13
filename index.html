@@ -10,16 +10,49 @@
   <meta name="author" content="Blake Brooks" />
   
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> 
 
 </head>
 
 <body>
-  <h1>Blake Brooks</h1>
+  <header id='hero' class='hero-banner'>
+    <div class="hero-profile">
+      <img src="assets/img/profile-picture.png" class='profile-picture'/>
+    </div>
+    <div class="hero-description">
+      <h1>My name is Blake Brooks!</h1>
+      <p>
+        I love problem solving, playing video games with my friends, watching football on Sunday, and going to the gym!
+      </p>
+    </div>
+  </header>
   
-  <ol>
-      <li><a href='gordo/index.html'>First Assignment - Gordo</a></li>
-      <li><a href='css-demo/index.html'>Second Assignment - CSS Demo</a></li>
-      <li><a href='assets/img/flex-froggy-completion.png'>Third Assignment - Flex Froggy</a></li>
-  </ol>
+  <section id="assignments">
+    
+    <h2>Assignments</h2>
+    
+    <div class="assignments-container">
+        <div class="assignment-card">
+          <a href="gordo/index.html">
+            <div id="gordo" class='card-image'></div>
+            <div class="card-title">Gordo</div>
+          </a>
+        </div>
+        <div class="assignment-card">
+          <a href="css-demo/index.html">
+            <div id="css-demo" class='card-image'></div>
+            <div class="card-title">CSS Demo</div>
+          </a>
+        </div>
+        <div class="assignment-card">
+          <a href="assets/img/flex-froggy-completion.png">
+            <div id="flex-froggy" class='card-image'></div>
+            <div class="card-title">Flex Froggy</div>
+          </a>
+        </div>
+    </div>
+  </section>
 </body>
 </html>
