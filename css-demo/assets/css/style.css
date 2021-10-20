@@ -39,6 +39,20 @@ html {
     margin:auto;
 }
 
+.img-right {
+    float: right;
+    border:1px solid grey;
+    padding:5px;
+    margin-left:10px;
+}
+
+.img-left {
+    float: left;
+    border:1px solid grey;
+    padding:5px;
+    margin-right:10px;
+}
+
 #intro h2 {
     color:;
     border-bottom: 1px dotted grey;
@@ -85,6 +99,84 @@ time.post-date {
 
 /*---------------- Attribute Selectors ---------------*/
 
+
+#additional-elements {
+    line-height:1.5;
+}
+
+#additional-elements h2 {
+    border-bottom: 1px dotted grey;
+}
+
+#additional-elements ol {
+    list-style-type:upper-alpha;
+}
+
+#additional-elements ul {
+    list-style-type:square;
+}
+
+#additional-elements ul ul {
+    list-style-type:circle;
+}
+
+#additional-elements dt {
+    font-weight: bold;
+    margin-top:1.5em;
+}
+
+dd + dt {
+    margin-top:1.1rem;
+}
+
+#additional-elements dd {
+    margin: 0;
+}
+
+#additional-elements img {
+    width:40%;
+}
+
+#additional-elements blockquote {
+    border-left:10px solid #635bff;
+    padding-left:10px;
+    font-size:.85rem;
+    color:black;
+}
+
+#additional-elements cite {
+    display:block;
+    text-align:right;
+    font-size:.65rem;
+}
+
+table {
+    width:100%;
+    border:.5px grey solid;
+    margin:25px 0;
+    border-collapse: collapse;
+}
+
+table tr {
+    
+}
+
+table th {
+    background-color:#002c59;
+    color:white;
+    width:33%;
+    padding:10px;
+}
+
+table td {
+    border:1px solid grey;
+    padding:5px;
+}
+
+table tr:nth-child(odd) {
+    background-color:#efeff0;
+}
+
 aside[role='complementary'] {
     background-color: #002c59;
     color:#adbdcc;
@@ -111,6 +203,16 @@ aside div.container {
 
 article.widget {
     width:45%;
+}
+
+/*------------------ footer -----------------------*/
+
+#colophon h6 {
+    margin:0;
+    padding:25px;
+    text-align:center;
+    font-size: .8rem;
+    text-transform:uppercase;
 }
 
 /* ---------------Global Styles----------------- */
