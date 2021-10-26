@@ -29,6 +29,7 @@ body {
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	height:800px;
 }
 #red {
 	background-color: #900;
@@ -45,6 +46,34 @@ body {
 #footer {
 	background-color: #666;
 }
+
+.square {
+	position:absolute;
+	height:150px;
+	width:150px;
+}
+
+.square-right {
+	margin-left:650px;
+}
+
+.square-left {
+	margin-right:650px;
+}
+
+.square-top {
+	margin-bottom:650px;
+}
+
+.square-bottom {
+	margin-top:650px;
+}
+
+.square-center {
+	margin-left:312.5px;
+	margin-top:312.5px;
+}
+
 h1 {
 	color: #000;
 	font-weight: normal;
@@ -56,11 +85,11 @@ h1 {
 <body>
 <h1>Absolute 2</h1>
 <div id="wrapper">
-  <div id="red">Red</div>
-  <div id="green">Green</div>
-  <div id="blue">Blue</div>
-  <div id="purple">Purple</div>
-  <div id="footer">Footer</div>
+  <div class="square square-left square-top" id="red">Red</div>
+  <div class="square square-right square-top" id="green">Green</div>
+  <div class="square square-bottom square-left" id="blue">Blue</div>
+  <div class="square square-right square-bottom" id="purple">Purple</div>
+  <div class="square square-center" id="footer">Footer</div>
 </div>
 </body>
 </html>
