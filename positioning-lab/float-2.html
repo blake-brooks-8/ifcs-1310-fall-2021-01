@@ -41,9 +41,26 @@ body {
 }
 #purple {
 	background-color: #63C;
+
 }
 #footer {
 	background-color: #666;
+	float:clear;
+	width:760px;
+	margin-top:190px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+.square {
+	float:left;
+	width:175px;
+	height:150px;
+	margin:20px 10px 10px 10px;
+}
+
+.square:nth-child(1) {
+	margin-left:20px;
 }
 h1 {
 	color: #000;
@@ -56,10 +73,10 @@ h1 {
 <body>
 <h1>Float 2</h1>
 <div id="wrapper">
-  <div id="red">Red</div>
-  <div id="green">Green</div>
-  <div id="blue">Blue</div>
-  <div id="purple">Purple</div>
+  <div class='square' id="red">Red</div>
+  <div class='square' id="green">Green</div>
+  <div class='square' id="blue">Blue</div>
+  <div class='square' id="purple">Purple</div>
   <div id="footer">Footer</div>
 </div>
 </body>
