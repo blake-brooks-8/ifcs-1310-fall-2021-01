@@ -216,6 +216,10 @@ background: linear-gradient(to top, rgba(255,187,128,1) 0%, rgba(242,207,187,1) 
     background-image: url('../img/icon.png');
 }
 
+#bear-boat {
+    background-image: url('../img/bear-boat.jpg');
+}
+
 /*------------------------- mobile hero -------------------------------*/
 
 @media only screen and (max-width: 700px) {
