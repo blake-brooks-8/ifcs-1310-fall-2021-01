@@ -1,0 +1,140 @@
+/*------------------ color scheme ---------------------------*/
+/*Primary: #6C63FF*/
+/*Secondary: #d45c74*/
+/*Black: #3f3d56*/
+/*Light Grey: #e6e6e6*/
+
+
+/* ---------------Reset----------------- */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+/* ---------------Responsive Images----------------- */
+/*img {*/
+/*    height:auto;*/
+/*    width:100%;*/
+/*}*/
+
+
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*------------------- Global Style ----------------------*/
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    color:#3F3D56;
+}
+
+
+/*----------------------Navbar----------------------------------*/
+
+.nav-logo {
+    width:150px;
+}
+
+nav ul.main {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav-main--item {
+    margin:0 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Marvel', sans-serif;
+    font-weight:700;
+    font-size:1.5rem;
+    color:#3F3D56;
+}
+
+.nav-bar-border-color {
+    display:flex;
+    width:100vw;
+    background-color:blue;
+    height:5px;
+    flex-grow:1;
+}
+
+.nav-bar--btm-brdr {
+    height:auto;
+    flex-grow:1;
+}
+
+.nav-bar--left {
+    background-color:#6C63FF;
+}
+
+.nav-bar--middle {
+    background-color:#FF6584;
+}
+
+.nav-bar--right {
+    background-color:#FCCC63;
+}
+
+/*-------------------------main hero------------------------------------*/
+#hero {
+    width:100vw;
+    height:450px;
+    background: radial-gradient(110.76% 134.34% at 22.26% 13.38%, rgba(255, 101, 132, 0.12) 0%, rgba(221, 125, 125, 0.38) 48.96%, rgba(108, 99, 255, 0.57) 100%);
+    display:flex;
+    padding:50px 20vw;
+    justify-content:center;
+
+}
+
+.hero-container {
+    max-width:900px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero-item h2 {
+    font-size:5rem;
+    font-family: 'Marvel', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.hero-item p {
+    margin:0;
+    padding:0;
+}
+
+.hero-item {
+    width:50%;
+}
+
+.hero--copy {
+    display:flex;
+    flex-direction:column;
+}
+
+.hero--logo {
+    width:50%;
+}
+
+.hero--illustration {
+    width:100%;
+    height:auto;
+}
