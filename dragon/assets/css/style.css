@@ -10,6 +10,8 @@ html, body {
     margin: 0;
     padding: 0;
     border: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 ol,ul {
@@ -17,10 +19,10 @@ ol,ul {
 }
 
 /* ---------------Responsive Images----------------- */
-/*img {*/
-/*    height:auto;*/
-/*    width:100%;*/
-/*}*/
+img {
+    height:auto;
+    width:100%;
+}
 
 
 /* ---------------Box Sizing----------------- */
@@ -39,7 +41,6 @@ html {
 html {
     font-family: 'Lato', sans-serif;
     font-size:16px;
-    color:#3F3D56;
 }
 
 
@@ -137,4 +138,103 @@ nav ul.main {
 .hero--illustration {
     width:100%;
     height:auto;
+}
+
+
+/*---------------------------------- dragon overview -------------------------------------*/
+
+#dragon-overview {
+    width:100vw;
+    position:relative;
+    background-color:#fff;
+}
+
+.overview-container {
+    padding-top:50px;
+    margin:0 20vw 0 20vw;
+    max-width:900px;
+}
+
+.overview-heading {
+    display:block;
+    margin:0;
+}
+
+.overview-copy {
+    display:flex;
+    width:100%;
+}
+
+.overview-copy p:nth-child(1) {
+    padding-right:25px;
+    border-right:1px #535461 dotted;
+    margin-right:25px;
+}
+
+/*color bars ----------------*/
+.top {
+    position:absolute;
+    display:block;
+    top:auto;
+    left:0;
+    float:left;
+}
+
+.bottom {
+    position:absolute;
+    bottom:0 !important;
+    right:0;
+    margin-right:15px;
+}
+
+.color-bar {
+    width:20px;
+}
+
+.c-b-large {
+    height:100px;
+}
+
+.c-b-medium {
+    height:75px;
+}
+
+.c-b-small {
+    height:50px;
+}
+
+.c-b-one {
+    background-color:#6C63FF;
+}
+
+.c-b-two {
+    background-color:#FF6584;
+}
+
+.c-b-three {
+    background-color:#FCCC63;
+}
+
+.t-1 {
+    margin-left:0;
+}
+
+.t-2 {
+    margin-left:10px;
+}
+
+.t-3 {
+    margin-left:20px;
+}
+
+.b-1 {
+    margin-right:15px
+}
+
+.b-2 {
+    margin-right:25px
+}
+
+.b-3 {
+    margin-right:35px
 }
