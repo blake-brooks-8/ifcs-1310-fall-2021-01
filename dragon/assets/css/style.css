@@ -505,6 +505,50 @@ nav ul.main {
         text-align:center;
         margin:auto;
     }
+    
+    footer, footer ul {
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding-left:0;
+    }
+    
+    footer ul li {
+        margin:0;
+    }
+    
+    footer h6 {
+        margin-bottom:0;
+    }
+    
+    .cargo-wrapper {
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .crew-content-container {
+        flex-direction:column;
+    }
+    
+    .crew-group {
+        padding:0 0 20px 0;
+        margin:0 0 20px 0;
+        border:0;
+        border-bottom: 1px dotted #535461;
+    }
+    
+    .crew-group:nth-last-child(1) {
+        border:0;
+    }
+    
+    .lab-content-container {
+        flex-direction:column;
+    }
+    
+    .lab-group {
+        margin-bottom:20px;
+    }
+    
 }
 
 
@@ -544,5 +588,29 @@ nav ul.main {
         padding:35px;
         margin:0;
         padding-bottom:0;
+    }
+    
+    .card-container {
+        width:100vw;
+        margin-bottom:20px;
+    }
+    
+    .card-header {
+        position:relative;
+        height:auto;
+    }
+    
+    .icon {
+        height:2.5rem;
+        width:2.5rem;
+    }
+    
+    .config-subhead {
+        margin:0;
+        margin-bottom:20px;
+    }
+    
+    .lab-group {
+        margin:0 0 20px 0;
     }
 }
