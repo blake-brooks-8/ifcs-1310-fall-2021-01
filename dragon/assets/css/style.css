@@ -43,6 +43,15 @@ html {
     font-size:16px;
 }
 
+.section-heading {
+    font-family: 'Marvel', sans-serif;
+    font-weight: 700;
+    font-size:5rem;
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+}
+
 
 /*----------------------Navbar----------------------------------*/
 
@@ -147,6 +156,8 @@ nav ul.main {
     width:100vw;
     position:relative;
     background-color:#fff;
+    display:flex;
+    justify-content:center;
 }
 
 .overview-container {
@@ -156,6 +167,7 @@ nav ul.main {
 }
 
 .overview-heading {
+    text-align:center;
     display:block;
     margin:0;
 }
@@ -237,4 +249,17 @@ nav ul.main {
 
 .b-3 {
     margin-right:35px
+}
+
+.cropped-rocket {
+    margin-bottom:-3px;
+}
+
+/*-------------------- configurations --------------------------*/
+
+.configurations-heading {
+    text-align:center;
+    color:#fff;
+    background-color:#535461;
+    padding:25px;
 }
