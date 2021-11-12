@@ -119,13 +119,6 @@ nav ul.main {
     justify-content:center;
 }
 
-.hero-item h2 {
-    font-size:5rem;
-    font-family: 'Marvel', sans-serif;
-    margin:0;
-    padding:0;
-}
-
 .hero-item p {
     margin:0;
     padding:0;
@@ -262,4 +255,85 @@ nav ul.main {
     color:#fff;
     background-color:#535461;
     padding:25px;
+}
+
+
+/*-------------------- TABLET  ------------------------*/
+
+@media screen and (max-width:900px) {
+    .section-heading {
+        font-size:2rem;
+    }
+    
+    #hero {
+        padding:20px 5vw;
+        height:auto;
+    }
+    
+    .overview-copy {
+        flex-direction:column;
+    }
+    
+    .overview-copy p:nth-child(1) {
+        padding:0;
+        padding-bottom:25px;
+        border-right:0;
+        border-bottom:1px #535461 dotted;
+    }
+    
+    nav ul.main {
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .nav-main--item {
+        font-size:1.5rem;
+        align-self:center;
+    }
+    
+    .nav-logo {
+        padding:10px;
+        text-align:center;
+        margin:auto;
+    }
+}
+
+
+/*--------------- MOBILE -----------------*/
+
+@media screen and (max-width:450px) {
+    
+    #hero {
+        width:100vw;
+    }
+    
+    .hero-container {
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        padding:0 10px;
+    }
+    
+    .hero-item {
+        margin-bottom: 15px;
+        width:80%;
+    }
+    
+    .hero--logo {
+        width:100%;
+    }
+    
+    .hero-illustration {
+        width:80%;
+    }
+    
+    .cropped-rocket {
+        width:80%;
+    }
+    
+    .overview-container {
+        padding:35px;
+        margin:0;
+        padding-bottom:0;
+    }
 }
