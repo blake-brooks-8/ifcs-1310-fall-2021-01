@@ -467,6 +467,44 @@ nav ul.main {
 }
 
 
+/*---------------------------- FAQ Page ------------------------*/
+
+#faq {
+    padding:0 10vw;
+    max-width:1200px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+#faq h1 {
+    margin-bottom:20px;
+}
+
+#faq details {
+    margin-bottom:20px;
+    border-radius:20px;
+    padding:20px 40px;
+    box-shadow: 0px 4px 34px -7px rgba(0, 0, 0, 0.25);
+    transition: all .4s ease-in-out;
+    max-height: 90px;
+    overflow:hidden;
+}
+
+#faq details[open] {
+    max-height:900px;
+}
+
+#faq summary {
+    color:#6C63FF;
+    font-weight: bold;
+}
+
+#faq summary:hover {
+    cursor:pointer;
+}
+
+
 /*-------------------- TABLET  ------------------------*/
 
 @media screen and (max-width:900px) {
