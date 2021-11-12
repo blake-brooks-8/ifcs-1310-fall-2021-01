@@ -41,6 +41,7 @@ html {
 html {
     font-family: 'Lato', sans-serif;
     font-size:16px;
+    background-color:#fff;
 }
 
 .section-heading {
@@ -50,6 +51,18 @@ html {
     text-transform: uppercase;
     margin:0;
     padding:0;
+}
+
+.clr-primary {
+    background-color:#6C63FF;
+}
+
+.clr-secondary {
+    background-color:#FF6584;
+}
+
+.clr-thirdary {
+    background-color: #FCCC63;
 }
 
 
@@ -250,11 +263,113 @@ nav ul.main {
 
 /*-------------------- configurations --------------------------*/
 
+.config-content {
+    max-width:1200px;
+    padding:25px 10vw;
+}
+
 .configurations-heading {
     text-align:center;
     color:#fff;
     background-color:#535461;
     padding:25px;
+}
+
+.icon {
+    width:55px;
+    height:55px;
+    margin-right:15px;
+    
+}
+
+.config-header-container {
+    display:flex;
+    align-items:center;
+}
+
+.config-subhead {
+    margin:0;
+    margin-left:75px;
+    margin-bottom:25px;
+    color:#535461;
+}
+
+.header-underline {
+    height:25px;
+    width:100%;
+    margin-top:-35px;
+}
+
+.card-container {
+    width:350px;
+    display:flex-column;
+}
+
+.card-top {
+    border-radius:20px 20px 0 0;
+    min-height:340px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card-left {
+    background: linear-gradient(90deg, #f28299, #ec83a7, #e485b4, #d988bf, #cc8cc9, #be90d1, #ae94d7, #9d98db);
+}
+
+.card-right {
+    background: linear-gradient(30deg, #f28299, #ec83a7, #e485b4, #d988bf, #cc8cc9, #be90d1, #ae94d7, #9d98db);
+    padding:10px;
+}
+
+.card-right img {
+    width:80%;
+}
+
+.card-bottom {
+    border-radius:0 0 20px 20px;
+    display:flex-column;
+    align-items:center;
+    box-shadow: 0 39px 54px 0 rgba(0, 0, 0, .15);
+    padding:20px;
+}
+
+.card-bottom p {
+    text-align: justify;
+    margin:0;
+    min-height: 160px;
+}
+
+.card-header {
+    text-transform: uppercase;
+    font-family: 'Marvel', sans-serif;
+    font-weight:700;
+    font-size:1.75rem;
+    margin:0 auto 0  auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color:white;
+    width:90%;
+    height:75px;
+    margin-top:-35px;
+    margin-bottom:10px;
+    border-radius:20px;
+    box-shadow: 0 4px 34px 0 rgba(0, 0, 0, .1);
+}
+
+.cargo-wrapper {
+    display:flex;
+    justify-content:space-around;
+}
+
+.config-header-group {
+    display:flex-column; 
+}
+
+.soft-shadow {
+  box-shadow: 0 4px 34px 0 rgba(0, 0, 0, .2);
 }
 
 
