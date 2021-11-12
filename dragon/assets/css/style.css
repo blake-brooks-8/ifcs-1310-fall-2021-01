@@ -65,6 +65,33 @@ html {
     background-color: #FCCC63;
 }
 
+footer {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#535461;
+    padding:20px 0 20px 0;
+    margin-top:20px;
+}
+
+footer h6 {
+    color:#B5B8D3;
+}
+
+#nav-footer ul {
+    display:flex;
+    justify-content:center;
+}
+
+#nav-footer ul li {
+    margin:25px;
+}
+
+#nav-footer ul li a {
+    text-decoration:none;
+    color:#fff;
+    text-transform: uppercase
+}
 
 /*----------------------Navbar----------------------------------*/
 
@@ -263,6 +290,15 @@ nav ul.main {
 
 /*-------------------- configurations --------------------------*/
 
+.cargo-container {
+    display:flex-column;
+    align-items:center;
+}
+
+.config-section {
+    margin-bottom:50px;
+}
+
 .config-content {
     max-width:1200px;
     padding:25px 10vw;
@@ -370,6 +406,63 @@ nav ul.main {
 
 .soft-shadow {
   box-shadow: 0 4px 34px 0 rgba(0, 0, 0, .2);
+}
+
+.crew-content-container {
+    display:flex;
+}
+
+.crew-group {
+    display:flex-colum;
+    padding-right:15px;
+    margin-left:15px;
+    border-right:1px dotted #535461;
+}
+
+.crew-group:nth-child(1) {
+    margin-left:0;
+}
+
+.crew-group:nth-last-child(1) {
+    padding-right:0;
+    border-right:0;
+}
+
+.crew-group p {
+    margin:0;
+}
+
+.crew-group h4 {
+    margin:0;
+    margin-bottom:7.5px;
+    padding: 7.55px 0 7.5px 10px;
+    border-left:solid 5px #7D76CF;
+    text-transform:uppercase;
+}
+
+.lab-content-container {
+    display:flex;
+}
+
+.lab-group {
+    display:flex-column;
+    margin: 0 25px;
+    min-heigh:250px;
+    border-bottom:5px solid black;
+    border-radius: 0 0 5px 5px;
+}
+
+.l-g-1 {border-bottom:5px solid #6C63FF;}
+.l-g-2 {border-bottom:5px solid #FF6584;}
+.l-g-3 {border-bottom:5px solid #FCCC63;}
+
+.lab-group h4 {
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.lab-group:nth-child(1) {
+    
 }
 
 
