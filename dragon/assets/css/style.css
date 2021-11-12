@@ -300,6 +300,7 @@ nav ul.main {
 }
 
 .config-content {
+    margin:auto;
     max-width:1200px;
     padding:25px 10vw;
 }
