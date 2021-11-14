@@ -505,6 +505,140 @@ nav ul.main {
 }
 
 
+/*---------------------- HISTORY ---------------------------*/
+
+#history-header {
+    display:flex;
+    margin:auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    max-width:700px;
+    min-width:600px;
+}
+
+.history-header-group {
+    display:flex-column;
+    align-items: center;
+}
+
+#history-content {
+    display:flex-column;
+    margin:auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    max-width:700px;
+    min-width:600px;
+}
+
+.history-image {
+    border-radius:20px;
+}
+
+figure {
+    margin:0;
+}
+
+figcaption {
+    color:#3F3D56;
+    font-size:.85rem;
+    margin-left:25px;
+    margin-top:10px;
+    margin-bottom:25px;
+}
+
+.subtle-heading {
+    font-size:24px !important;
+    font-weight:700 !important;
+    color:#6C63FF;
+    margin:0;
+}
+
+.info-container {
+    display:flex;
+    align-items:center;
+    background-color:#E8E7FF;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:40px;
+}
+
+.info-icon {
+    width:2rem;
+    height:2rem;
+    margin:0;
+    margin-right:20px;
+}
+
+.info-text {
+    margin:0;
+    color:#4438FE;
+}
+
+.spacer {
+    height:30px;
+}
+
+.mission-container {
+    display:flex;
+    justify-content:center;
+    background-color:#F1F1F1;
+    padding:20px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.mission-label {
+    margin:0;
+    color:#6C63FF;
+}
+
+.mission-group {
+    margin:0 20px;
+}
+
+.mission-group span {
+    display:flex;
+    align-items:center;
+    margin-top:5px;
+}
+
+.mission-group span p {
+    margin:0;
+}
+
+.mission-icon {
+    width:1rem;
+    height:1rem;
+    margin-right:5px;
+}
+
+.customer-group {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.customer-group button {
+    background-color:white;
+    border:3px solid #6C63FF;
+    border-radius:15px;
+    color:#6C63FF;
+    padding:10px;
+    font-weight:700;
+    margin:3px;
+}
+
+.customer-group button:hover {
+    cursor:pointer;
+}
+
+.btn-active {
+    background-color:#6C63FF !important;
+    border:3px solid #fff !important;
+    color:#fff !important;
+}
+
+
 /*-------------------- TABLET  ------------------------*/
 
 @media screen and (max-width:900px) {
