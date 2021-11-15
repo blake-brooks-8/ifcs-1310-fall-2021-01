@@ -598,13 +598,13 @@ figcaption {
     margin:0 20px;
 }
 
-.mission-group span {
+.mission-text-group {
     display:flex;
     align-items:center;
     margin-top:5px;
 }
 
-.mission-group span p {
+.mission-text-group p {
     margin:0;
 }
 
