@@ -188,7 +188,7 @@ background: linear-gradient(to top, rgba(255,187,128,1) 0%, rgba(242,207,187,1) 
 }
 
 /*----------------------------- progressive enhancement ---------------------------*/
-#progressive-enhancement {
+.essay-container {
     max-width: 600px;
     display: flex;
     flex-direction:column;
@@ -196,13 +196,13 @@ background: linear-gradient(to top, rgba(255,187,128,1) 0%, rgba(242,207,187,1) 
     margin-bottom: 50px;
 }
 
-#progressive-enhancement h2 {
+.essay-container h2 {
     text-align: center;
     margin-bottom:25px;
     color:#063737;
 }
 
-#progressive-enhancement p {
+.essay-container p {
     margin-bottom: 10px;
 }
 
@@ -247,6 +247,10 @@ background: linear-gradient(to top, rgba(255,187,128,1) 0%, rgba(242,207,187,1) 
 
 #dragon {
     background-image: url('../img/outerspace-rocket.svg');
+}
+
+#cycle {
+    background-image: url('../../cycle/assets/img/1.jpg');
 }
 
 /*------------------------- mobile hero -------------------------------*/
